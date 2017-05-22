@@ -7,11 +7,11 @@ using NestedClass.Controllers;
 
 namespace NestedClass
 {
-    public class ParentValidator : AbstractValidator<ParentClass>
+    public class ParentValidator : AbstractValidator<OuterClass>
     {
         public ParentValidator()
         {
-            RuleFor(x => x.ParentName)
+
         }
     }
 }
